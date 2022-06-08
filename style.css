@@ -6,7 +6,7 @@ body{
     min-height: 100vh;
 }
 
-.header-wrapper{
+.header-wrapper, .footer{
     background-color: #1f2937;
 }
 
@@ -72,7 +72,7 @@ body{
     max-width: 300px;
 }
 
-button{
+.sign-up-hero{
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 5px;
@@ -106,7 +106,7 @@ button{
 .info-cards{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:baseline;
     padding: 18px;
     flex-wrap: wrap;
     text-align: center;
@@ -118,7 +118,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .card-two{
@@ -143,4 +143,61 @@ button{
     justify-content: center;
     align-items: center;
     max-width: 150px;
+}
+
+.quote-container{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px;
+    margin-top: 200px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding:0 ;
+    margin: 0;
+}
+
+.quote-credit{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+.action-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 180px;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 24px;
+    width: 800em;
+    color: #f9faf8
+}
+
+.sign-up-action{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: solid #f9faf8;
+    font-weight: 900;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
 }
